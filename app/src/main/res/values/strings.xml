@@ -1,0 +1,19 @@
+<resources>
+        <string name="app_name">YouTubeAppClone</string>
+        <string name="youtube">YouTube</string>
+        <string name="home">Home</string>
+        <string name="inbox">Inbox</string>
+        <string name="library">Library</string>
+        <string name="subscriptions">Subscriptions</string>
+        <string name="search">Search</string>
+        <string name="trending">Trending</string>
+        <string name="notifications">NOTIFICATIONS</string>
+        <string name="messages">MESSAGES</string>
+        <string name="history">History</string>
+        <string name="downloads">Downloads</string>
+        <string name="my_videos">My Videos</string>
+        <string name="purchases">Purchases</string>
+        <string name="watch_later">Watch Later</string>
+
+
+</resources>

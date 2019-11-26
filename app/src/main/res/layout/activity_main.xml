@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        
+        <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="56dp"
+                />
+        
+        
+        <android.support.design.widget.BottomNavigationView
+                android:id="@+id/btmNav"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:menu="@menu/bottom_nav_menu"
+                android:background="?attr/bgColor"
+                app:elevation="8dp"
+                app:labelVisibilityMode="labeled"
+                android:textAlignment="center"
+                style="@style/bottom_nav_style"
+                app:itemTextAppearanceInactive="@style/bottom_nav_text"
+                app:itemTextAppearanceActive="@style/bottom_nav_text"
+                app:itemTextColor="@color/bottom_nav_selector"
+                app:itemIconTint="@color/bottom_nav_selector"
+                android:layout_gravity="bottom" />
+</android.support.design.widget.CoordinatorLayout>
